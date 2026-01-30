@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | Civil Engineer Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <h1>Contact</h1>
+  <ul class="nav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+  </ul>
+</header>
+
+<main>
+  <div class="contact-wrapper">
+    <!-- Contact Form (Left side) -->
+    <div class="form-box">
+      <h2>Contact Me</h2>
+      <form action="thankyou.html" method="GET">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required style="resize: none;"></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </div>
+
+    <!-- Feedback + Video (Right side) -->
+    <div class="feedback-container">
+      <h2>Demo Video</h2>
+      <p>We value your feedback. Please check out our presentation below:</p>
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/vkew-1KK3Sc?si=RWSRUrqoWXxoc4PV&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="container">
+    <h2>Contact Information</h2>
+    <ul class="contact-info">
+      <li><strong>Phone:</strong> 09112233445</li>
+      <li><strong>Email:</strong> mhp12@gmail.com</li>
+    </ul>
+  </div>
+</main>
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2025 Civil Engineer Portfolio. All rights reserved.</p>
+    <p>Designed with dedication and precision.</p>
+  </div>
+</footer>
+</body>
+</html>
